@@ -14,6 +14,8 @@
 	encounter, recommendations and testimonials, etc.
 </p>
 
+<p>You can include anything you want.</p>
+
 <style>
 	h1 {
 		font-size: 4rem;
@@ -31,9 +33,9 @@
 	p {
 		font-size: 1.25rem;
 		width: 50%;
-		line-height: 2.25;
-		letter-spacing: 5px;
-		margin-bottom: 3rem;
+		line-height: 1.25;
+		letter-spacing: 2px;
+		margin-bottom: 2%;
 		margin-right: 14%;
 	}
 

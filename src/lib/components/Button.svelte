@@ -1,9 +1,9 @@
 <script>
 	export let title;
-	export let link;
+	export let href;
 </script>
 
-<a href={link} target="_blank">
+<a {href} target="_blank">
 	<button>{title}</button>
 </a>
 
@@ -11,6 +11,7 @@
 	button {
 		background-color: var(--blue);
 		border: none;
+		outline: none;
 		color: white;
 		padding: 0.5rem 1.25rem;
 		text-align: center;

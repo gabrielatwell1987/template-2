@@ -1,5 +1,6 @@
 <script>
 	import Image from '$lib/components/Image.svelte';
+	import Page from '../+page.svelte';
 </script>
 
 <h1>Blog</h1>
@@ -15,6 +16,12 @@
 </p>
 
 <p>You can use mdsvex for markdown on this blog.</p>
+
+<p>
+	You can also add images to your blog posts to make them more visually appealing. You can also add
+	links to your blog posts to link to other pages or websites. You can also add buttons to your blog
+	posts.
+</p>
 
 <style>
 	h1 {
@@ -32,8 +39,9 @@
 	p {
 		font-size: 1.25rem;
 		width: 75%;
-		line-height: 2.25;
-		letter-spacing: 5px;
+		line-height: 1.25;
+		letter-spacing: 2px;
+		margin: 0 0 2% 0;
 	}
 
 	.image {

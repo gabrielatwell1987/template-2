@@ -12,15 +12,15 @@
 </p>
 
 <div class="button">
-	<Button title="Call to action" link="https://google.com" />
+	<Button title="Call to action" href="https://google.com" />
 </div>
 
 <hr />
 
 <div class="card">
-	<Card title="Example" img="img_avatar.png" content="Name: John Doe" />
+	<Card title="John Doe" img="img_avatar.png" content="Product Manager" />
 
-	<Card title="Example 2" img="img_avatar2.png" content="Name: Jane Doe" />
+	<Card title="Jane Doe" img="img_avatar2.png" content="Accountant" />
 </div>
 
 <style>
